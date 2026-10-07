@@ -1,0 +1,129 @@
+h1, h2{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo-principal{
+    background-color: #13af8d;
+    color: aliceblue;
+    padding: 25px;
+    margin: 0;
+}
+
+p{
+  text-align: center;
+    color:#333;
+    line-height: 1.6;
+    font-size: 16px;
+
+}
+
+.destaque{
+    color:#245abe;
+    background-color: #fff0f0;
+    padding: 2px 6px;
+}
+
+#informaçoes li{
+    margin-bottom: 8px;
+    list-style-type: square ;
+    background-color: rgb(229, 235, 233);
+}
+nav{
+    text-align: center;
+    background: #1f4ed8;
+    padding: 15px;
+}
+nav{
+    color:white;
+    text-decoration: none;
+    margin:0 20px;
+    font-weight: bold;
+    list-style: none;
+    font-size: 18px;
+}
+nav a:hover{
+    color:yellow;
+}
+nav a {
+    color:#eee;
+}
+
+img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20PX auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+#contato{
+    text-align: center;
+}
+input[type="email"]{
+    border: 2px solid #004aad;
+    background-color: #eef5ff;
+    padding: 6px;
+    border-radius: 4px;
+}
+body{
+    background-color: rgb(118, 200, 233);
+
+}
+main{
+    max-width: 800px;
+    margin:20px auto;
+    padding: 20px;
+    background-color: #eef5ff;
+}
+section{
+    margin: 30px;
+}
+
+button{
+    background-color:#eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+button:hover{
+    background-color: #004aad;
+    color: #eee;
+}
+
+footer{
+    background-color: rgb(17, 192, 17);
+    color:rgb(229, 235, 233);
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.item {
+    flex-basis: 300px;
+    flex-grow: 1;
+    background-color: white;
+    border: 1px solid rgb(0, 110, 236);
+}
+.item img{
+    width: auto;
+    height: 200px;
+}
+
+.item:hover{
+    border-color: #ad2800;
+}
